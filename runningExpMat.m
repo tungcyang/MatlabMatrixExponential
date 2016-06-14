@@ -10,7 +10,7 @@ rng('default');
 maxRelativeError = 0.0;
 maxRelativeError1 = 0.0;
 maxRelativeErrorRatio = 0.0;
-for i = 1:0 % NUM_ITERATIONS
+for i = 1:NUM_ITERATIONS
     msize = MIN_MATRIX_DIMENSION + ...
             floor((MAX_MATRIX_DIMENSION - MIN_MATRIX_DIMENSION + 1)*rand(1));
     % msize would be the dimension of the matrix X we generate in this
